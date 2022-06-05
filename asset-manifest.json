@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/projeto-desestresse/static/js/main.bc19f1df.js",
+    "main.js": "/projeto-desestresse/static/js/main.4daab3ca.js",
     "index.html": "/projeto-desestresse/index.html",
-    "main.bc19f1df.js.map": "/projeto-desestresse/static/js/main.bc19f1df.js.map"
+    "main.4daab3ca.js.map": "/projeto-desestresse/static/js/main.4daab3ca.js.map"
   },
   "entrypoints": [
-    "static/js/main.bc19f1df.js"
+    "static/js/main.4daab3ca.js"
   ]
 }
