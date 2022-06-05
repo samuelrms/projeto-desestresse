@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { textData } from "../../mooks/text";
 import { ContainerHeader, ContentInformations } from "./styled";
 import Title from "../../components/Title";
-import axios from "axios";
 import SubTitle from "../../components/SubTitle";
 import Description from "../../components/Description";
 import Button from "../../components/Button";
