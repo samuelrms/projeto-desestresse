@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
   padding: 15px;
   a {
     padding: 10px;
-    width: 50%;
+
     :hover {
       background-color: #fc6130;
       border-radius: 10px;
@@ -19,6 +19,9 @@ export const HeaderContainer = styled.header`
     flex-direction: column;
     a {
       padding: 10px 0;
+      :hover {
+        width: 50%;
+      }
     }
   }
 `;
