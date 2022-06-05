@@ -9,10 +9,14 @@ export const ContainerHeader = styled.div`
     width: 60%;
   }
   a {
-    padding: 20px 80px;
+    padding: 20px;
     color: #1d1d1d;
     font-weight: bold;
     font-size: 1rem;
+
+    @media (max-width: 525px) {
+      padding: 20px 0;
+    }
   }
 `;
 

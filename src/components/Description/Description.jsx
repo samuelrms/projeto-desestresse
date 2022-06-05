@@ -1,9 +1,14 @@
 import React from "react";
 import { DescriptionDefault } from "./styled";
 
-const Description = ({ children, fontSize, ...restProps }) => {
+const Description = ({ children, fontSize, color, margin, ...restProps }) => {
   return (
-    <DescriptionDefault fontSize={fontSize} {...restProps}>
+    <DescriptionDefault
+      margin={margin}
+      color={color}
+      fontSize={fontSize}
+      {...restProps}
+    >
       {children}
     </DescriptionDefault>
   );

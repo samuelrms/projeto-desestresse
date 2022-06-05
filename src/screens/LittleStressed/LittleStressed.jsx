@@ -31,10 +31,11 @@ const LittleStressed = () => {
         <Button
           width="60%"
           height="50px"
-          margin="20px 0 60px"
+          margin="20px 0 40px"
           onClick={handleClick}
           children={textData.littleStressed.button}
         />
+        <hr />
         {data !== null
           ? !loading && <ImageLittleStressed src={data.message} alt="" />
           : data === null && <SubTitle> Loading ... </SubTitle>}

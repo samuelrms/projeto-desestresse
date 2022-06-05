@@ -27,6 +27,10 @@ export const ButtonDefault = styled.button`
     right: ${({ rightTablet }) => rightTablet};
     bottom: ${({ bottomTablet }) => bottomTablet};
   }
+
+  @media (max-width: 525px) {
+    width: 100%;
+  }
 `;
 
 ButtonDefault.defaultProps = {

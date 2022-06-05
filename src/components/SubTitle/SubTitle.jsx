@@ -1,9 +1,9 @@
 import React from "react";
 import { SubTitleDefault } from "./styled";
 
-const SubTitle = ({ fontSize, children, ...restProps }) => {
+const SubTitle = ({ fontSize, children, color, ...restProps }) => {
   return (
-    <SubTitleDefault fontSize={fontSize} {...restProps}>
+    <SubTitleDefault color={color} fontSize={fontSize} {...restProps}>
       {children}
     </SubTitleDefault>
   );
