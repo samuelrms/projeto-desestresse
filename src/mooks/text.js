@@ -26,6 +26,7 @@ export const textData = {
   },
   littleStressed: {
     title: "Estou um pouco estressado.",
+    button: "Alivie seu estresse",
   },
   stressed: {
     title: "Estou estressado!",
