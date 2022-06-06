@@ -39,7 +39,9 @@ const VeryStressed = () => {
     setLoading(true);
 
     axios
-      .get("https://v2.jokeapi.dev/joke/Any?type=twopart")
+      .get(
+        "https://v2.jokeapi.dev/joke/Programming,Miscellaneous,Pun,Spooky,Christmas?type=twopart",
+      )
       .then((response) => {
         setDataJoke(response.data);
         console.log(response.data);

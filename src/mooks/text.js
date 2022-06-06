@@ -9,9 +9,9 @@ export const textData = {
     descriptionStressed:
       "Uma categoria onde não é necessario ficar clicando toda hora para ver a foto de um amigão",
     subTitleVeryStressed:
-      "Cuidado utilize essa categoria apenas se estiver muito estressado!",
+      "Cuidado! Utilize essa categoria apenas se estiver muito estressado.",
     descriptionVeryStressed:
-      "Nessa categoria as fotos passam mais rápido, porém você terá que clicar, clicar para ler outra piada!",
+      "Nessa categoria as fotos passam mais rápido, porém você terá que clicar para ler outra piada!",
   },
   routes: {
     home: "Início",
