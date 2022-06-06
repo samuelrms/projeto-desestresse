@@ -28,9 +28,7 @@ const Stressed = () => {
   return (
     <ContainerStressed>
       <Title>{textData.stressed.title}</Title>
-      <Description margin="0" color="#fff">
-        {textData.littleStressed.button}
-      </Description>
+      <Description margin="0">{textData.littleStressed.button}</Description>
       <hr />
       {dataDog !== null
         ? !loading && <ImageLittleStressed src={dataDog.message} alt="" />

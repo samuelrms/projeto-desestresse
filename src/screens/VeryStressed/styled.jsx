@@ -4,11 +4,14 @@ import { ImageLittleStressed } from "../LittleStressed/styled";
 export const ContainerVeryStressed = styled.div`
   display: flex;
   justify-content: center;
-  padding: 15px 30px 20px;
+  padding: 70px 30px 20px;
   flex-direction: column;
   align-items: center;
   hr {
     width: 60%;
+  }
+  @media (max-width: 525px) {
+    padding-top: 240px;
   }
 `;
 
@@ -70,6 +73,7 @@ export const ImageLittleStressedJoke = styled(ImageLittleStressed)`
   min-height: 400px;
   min-width: 30%;
   max-width: 30%;
+  box-shadow: -5px 9px 15px -3px rgba(0, 0, 0, 0.86);
 
   @media (max-width: 525px) {
     min-width: 100%;

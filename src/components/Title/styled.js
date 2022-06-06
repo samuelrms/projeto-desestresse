@@ -6,5 +6,5 @@ export const DefaultTitle = styled.h1`
 `;
 
 DefaultTitle.defaultProps = {
-  color: "#fff",
+  color: "#1d1d1d",
 };

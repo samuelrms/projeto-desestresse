@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContainerHeader = styled.div`
   flex-wrap: wrap;
-  padding: 15px 30px 20px;
+  padding: 80px 30px 20px;
   display: flex;
   flex-direction: column;
   hr {
@@ -13,8 +13,10 @@ export const ContainerHeader = styled.div`
     color: #1d1d1d;
     font-weight: bold;
     font-size: 1rem;
-
-    @media (max-width: 525px) {
+  }
+  @media (max-width: 525px) {
+    padding-top: 240px;
+    a {
       padding: 20px 0;
     }
   }

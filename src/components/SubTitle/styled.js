@@ -6,5 +6,5 @@ export const SubTitleDefault = styled.h2`
 `;
 
 SubTitleDefault.defaultProps = {
-  color: "#FFF",
+  color: "#1d1d1d",
 };

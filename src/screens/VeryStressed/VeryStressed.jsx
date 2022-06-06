@@ -44,7 +44,7 @@ const VeryStressed = () => {
       )
       .then((response) => {
         setDataJoke(response.data);
-        console.log(response.data);
+        // console.log(response.data);
       });
 
     setLoading(false);
@@ -57,9 +57,7 @@ const VeryStressed = () => {
   return (
     <ContainerVeryStressed>
       <Title>{textData.veryStressed.title}</Title>
-      <Description margin="0" color="#fff">
-        {textData.littleStressed.button}
-      </Description>
+      <Description margin="0">{textData.littleStressed.button}</Description>
       <hr />
       <ContentVeryStressed>
         <ContentJoker>

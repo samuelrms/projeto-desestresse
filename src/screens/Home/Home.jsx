@@ -14,9 +14,7 @@ const Home = () => {
       <SubTitle>{textData.home.subTitle}</SubTitle>
       <hr />
       <ContentInformations background="#D4C6F5" borderRadius="10px 10px 0 0">
-        <SubTitle color="#1d1d1d">
-          {textData.home.subTitleLittleStressed}
-        </SubTitle>
+        <SubTitle>{textData.home.subTitleLittleStressed}</SubTitle>
         <Button
           width="30%"
           height="40px"
