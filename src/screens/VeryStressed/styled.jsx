@@ -24,6 +24,7 @@ export const ContentJoker = styled.div`
   border-radius: 10px;
   background: #d4c6f5;
   padding: 0 30px;
+  border: 3px solid #000;
 
   @media (max-width: 525px) {
     padding: 30px;
@@ -47,6 +48,7 @@ export const ContentVeryStressed = styled.div`
   padding: 0 20px;
   max-width: 100%;
   min-width: 96%;
+
   hr {
     width: 3px;
     min-width: 3px;

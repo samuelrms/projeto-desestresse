@@ -13,12 +13,16 @@ const Home = () => {
       <Title>{textData.home.titleHome}</Title>
       <SubTitle>{textData.home.subTitle}</SubTitle>
       <hr />
-      <ContentInformations background="#D4C6F5" borderRadius="10px 10px 0 0">
+      <ContentInformations
+        borderBottom="none"
+        background="#D4C6F5"
+        borderRadius="10px 10px 0 0"
+      >
         <SubTitle>{textData.home.subTitleLittleStressed}</SubTitle>
         <Button
           width="30%"
           height="40px"
-          background="#F5DDC1"
+          background="#F5EE76"
           children={
             <Link to="/projeto-desestresse/pouco-estressado">
               {textData.routes.littleStressed}
@@ -28,7 +32,11 @@ const Home = () => {
         <Description>{textData.home.descriptionLittleStressed}</Description>
       </ContentInformations>
       <hr />
-      <ContentInformations background="#D4C6F5">
+      <ContentInformations
+        borderBottom="none"
+        borderTop="none"
+        background="#D4C6F5"
+      >
         <SubTitle color="#1d1d1d">{textData.home.subTitleStressed}</SubTitle>
         <Button
           width="30%"
@@ -43,7 +51,11 @@ const Home = () => {
         <Description>{textData.home.descriptionStressed}</Description>
       </ContentInformations>
       <hr />
-      <ContentInformations background="#D4C6F5" borderRadius="0 0 10px 10px">
+      <ContentInformations
+        borderTop="none"
+        background="#D4C6F5"
+        borderRadius="0 0 10px 10px"
+      >
         <SubTitle color="#1d1d1d">
           {textData.home.subTitleVeryStressed}
         </SubTitle>

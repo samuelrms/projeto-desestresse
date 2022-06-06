@@ -18,12 +18,20 @@ export const ContainerHeader = styled.div`
     padding-top: 240px;
     a {
       padding: 20px 0;
+      width: 100%;
     }
   }
 `;
 
 export const ContentInformations = styled.div`
-  background: ${({ background }) => background};
+  border: ${({ border }) => border};
+  border-bottom: ${({ borderBottom }) => borderBottom};
   border-radius: ${({ borderRadius }) => borderRadius};
+  background: ${({ background }) => background};
+  border-top: ${({ borderTop }) => borderTop};
   padding: 10px;
 `;
+
+ContentInformations.defaultProps = {
+  border: "3px solid #000",
+};

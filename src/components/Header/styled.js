@@ -12,13 +12,33 @@ export const HeaderContainer = styled.header`
   position: fixed;
   a {
     padding: 10px;
-    background: #f5ddc1;
+    background: #f5ee76;
     border-radius: 10px;
     color: #000;
     font-weight: bold;
-
+    :last-child {
+      background: #e63856;
+    }
+    :nth-child(3) {
+      background: #fc6130;
+    }
+    :first-child {
+      background: #fff;
+    }
     :hover {
-      background-color: #fc6130;
+      background-color: #1d1d1d;
+      :last-child {
+        color: #e63856;
+      }
+      :nth-child(3) {
+        color: #fc6130;
+      }
+      :nth-child(2) {
+        color: #f5ee76;
+      }
+      :first-child {
+        color: #fff;
+      }
     }
   }
 
