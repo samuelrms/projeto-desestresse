@@ -31,7 +31,7 @@ Desenvolvendo este projeto foquei nos seguintes pontos que julgo cruciais para t
 - Sobre arquitetura de pastas, o projeto segue uma estrutura básica, onde:
   - [components](https://github.com/samuelrms/projeto-desestresse/tree/main/src/components): arquivos de componentes reutilizáveis.
   - [screens](https://github.com/samuelrms/projeto-desestresse/tree/main/src/screens): páginas da aplicação.
-  - [routes](https://github.com/samuelrms/projeto-desestresse/tree/main/src/Routes): todas as rotas, separadas em autenticadas e não autenticadas
+  - [routes](https://github.com/samuelrms/projeto-desestresse/tree/main/src/Routes): todas as rotas
   - [styles](https://github.com/samuelrms/projeto-desestresse/tree/main/src/styles): arquivo de tema global.
   - [mocks](https://github.com/samuelrms/projeto-desestresse/tree/main/src/mocks): arquivo que contém todos os dados mockados da alicação.
 
